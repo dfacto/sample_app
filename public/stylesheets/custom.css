@@ -1,0 +1,78 @@
+.container {
+    width: 800px;
+}
+body {
+    background: #cff;
+}
+header {
+    padding-top: 20px;
+}
+
+section {
+    margin-top: 2em;
+    font-size: 120%;
+    padding: 20px;
+    background: #fff;
+}
+section h1 {
+    font-size: 200%;
+}
+a {
+    color: #09c;
+    text-decoration:none;
+}
+a:hover {
+    color: #069;
+    text-decoration: underline;
+}
+a:visited {
+    color: #069;
+}
+
+nav {
+    float: right;
+    background-color: #fff;
+    padding: 0 0.7em;
+    white-space: nowrap;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    padding: 0 5px;
+    font-weight: bold;
+}
+a.signup_button {
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+    text-align:center;
+    width: 200px;
+    color: #fff;
+    background: #006400;
+    font-size: 150%;
+    font-weight: bold;
+    padding: 20px;
+}
+.round {
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 10px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    }
+footer nav {
+    float: none;
+}
